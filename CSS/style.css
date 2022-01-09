@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.titulo{
+    color: black;
+    padding: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+textarea{
+    width: 300px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#btnAcao{
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#btnAcao:hover{
+    background: black;
+    text-shadow: none;
+}
+
+#QRCodeImage{
+    width: 256px;
+    height: 256px;
+    margin-top: 10px;
+}
