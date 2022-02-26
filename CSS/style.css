@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: aquamarine;
+    background: linear-gradient(to right, #06842D , #FCC38C);
     text-align: center;
 }
 
@@ -14,8 +14,6 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-
-
 textarea{
     width: 300px;
     border-radius: 5px;
@@ -23,13 +21,16 @@ textarea{
 }
 
 #btnAcao{
-    border-radius: 12px;
+    border-radius: 15px;
     cursor: pointer;
+    padding: 5px;
+    border: none;
 }
 
 #btnAcao:hover{
     background: black;
     text-shadow: none;
+    color: white;
 }
 
 #QRCodeImage{
